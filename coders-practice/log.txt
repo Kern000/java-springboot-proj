@@ -1,0 +1,1026 @@
+2024-07-02T17:08:09.768+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:08:09.769+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:08:09.769+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:08:09.884+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:08:09.888+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:08:09.888+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:08:09.896+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:08:09.897+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 126 ms
+2024-07-02T17:08:09.934+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:08:09.942+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:08:09.944+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.197 seconds (process running for 1220.845)
+2024-07-02T17:08:09.945+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:08:09.945+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:08:09.945+08:00  WARN 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Sample warn message
+2024-07-02T17:08:09.946+08:00 ERROR 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Sample error message
+2024-07-02T17:08:09.946+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:08:48.792+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:08:48.864+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:08:48.865+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:08:48.865+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:08:48.994+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:08:48.995+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:08:48.995+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:08:49.004+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:08:49.004+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 137 ms
+2024-07-02T17:08:49.041+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:08:49.047+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:08:49.050+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.207 seconds (process running for 1259.951)
+2024-07-02T17:08:49.051+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:08:49.051+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:08:49.052+08:00  WARN 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Sample warn message
+2024-07-02T17:08:49.052+08:00 ERROR 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Sample error message
+2024-07-02T17:08:49.052+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:09:25.889+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:09:25.960+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:09:25.961+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:09:25.961+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:09:26.111+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:09:26.114+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:09:26.114+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:09:26.127+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:09:26.127+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 163 ms
+2024-07-02T17:09:26.182+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:09:26.187+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:09:26.189+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.257 seconds (process running for 1297.091)
+2024-07-02T17:09:26.190+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:09:26.191+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:09:26.191+08:00  WARN 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Sample warn message
+2024-07-02T17:09:26.191+08:00 ERROR 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Sample error message
+2024-07-02T17:09:26.191+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:09:46.785+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:09:46.879+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:09:46.880+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:09:46.881+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:09:47.016+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:09:47.017+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:09:47.017+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:09:47.031+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:09:47.031+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 147 ms
+2024-07-02T17:09:47.070+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:09:47.076+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:09:47.080+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.234 seconds (process running for 1317.981)
+2024-07-02T17:09:47.082+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:09:47.082+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:09:47.082+08:00  WARN 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Sample warn message
+2024-07-02T17:09:47.082+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:09:58.587+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:09:58.644+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:09:58.645+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:09:58.645+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:09:58.754+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:09:58.755+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:09:58.755+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:09:58.766+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:09:58.766+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 120 ms
+2024-07-02T17:09:58.804+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:09:58.812+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:09:58.814+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.189 seconds (process running for 1329.715)
+2024-07-02T17:09:58.815+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:09:58.815+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:09:58.816+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:12:49.242+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:12:49.315+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:12:49.316+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:12:49.316+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:12:49.441+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:12:49.442+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:12:49.443+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:12:49.453+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:12:49.454+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 135 ms
+2024-07-02T17:12:49.489+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:12:49.495+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:12:49.497+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.207 seconds (process running for 1500.399)
+2024-07-02T17:12:49.499+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:12:49.499+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:12:49.500+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:13:17.181+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:13:17.242+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:13:17.242+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:13:17.242+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:13:17.369+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:13:17.370+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:13:17.370+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:13:17.381+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:13:17.382+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 137 ms
+2024-07-02T17:13:17.419+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:13:17.425+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:13:17.427+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.207 seconds (process running for 1528.328)
+2024-07-02T17:13:17.428+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:13:17.428+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:13:17.428+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:20:00.334+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-07-02T17:20:00.390+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:20:00.391+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:20:00.391+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:20:00.494+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:20:00.494+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:20:00.496+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:20:00.506+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:20:00.506+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 113 ms
+2024-07-02T17:20:00.536+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:20:00.541+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:20:00.543+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.169 seconds (process running for 1931.444)
+2024-07-02T17:20:00.543+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:20:00.544+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:20:00.544+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:20:06.012+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-07-02T17:20:06.066+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:20:06.067+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:20:06.067+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:20:06.175+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:20:06.176+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:20:06.176+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:20:06.187+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:20:06.187+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 118 ms
+2024-07-02T17:20:06.219+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:20:06.224+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:20:06.226+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.178 seconds (process running for 1937.128)
+2024-07-02T17:20:06.227+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:20:06.229+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:20:06.229+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:20:33.936+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-07-02T17:20:33.992+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:20:33.993+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:20:33.993+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:20:34.113+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:20:34.114+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:20:34.114+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:20:34.128+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:20:34.128+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 133 ms
+2024-07-02T17:20:34.162+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:20:34.167+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:20:34.170+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.195 seconds (process running for 1965.07)
+2024-07-02T17:20:34.170+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:20:34.171+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:20:34.171+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:21:02.918+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:21:02.973+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:21:02.974+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:21:02.975+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:21:03.072+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:21:03.073+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:21:03.074+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:21:03.085+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:21:03.086+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 110 ms
+2024-07-02T17:21:03.115+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:21:03.120+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:21:03.122+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.166 seconds (process running for 1994.023)
+2024-07-02T17:21:03.122+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:21:03.123+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:21:03.123+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:22:04.299+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:22:04.360+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:22:04.360+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:22:04.360+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:22:04.462+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:22:04.464+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:22:04.464+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:22:04.474+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:22:04.475+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 112 ms
+2024-07-02T17:22:04.505+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:22:04.509+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:22:04.511+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.169 seconds (process running for 2055.412)
+2024-07-02T17:22:04.512+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:22:04.512+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:22:04.512+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:22:24.137+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:22:24.192+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:22:24.193+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:22:24.193+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:22:24.302+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:22:24.304+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:22:24.305+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:22:24.316+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:22:24.316+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 121 ms
+2024-07-02T17:22:24.345+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:22:24.349+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:22:24.351+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.176 seconds (process running for 2075.252)
+2024-07-02T17:22:24.352+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:22:24.352+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:22:24.353+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:22:57.108+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:22:57.167+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:22:57.167+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:22:57.168+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:22:57.276+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:22:57.277+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:22:57.278+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:22:57.289+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:22:57.290+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2024-07-02T17:22:57.319+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:22:57.325+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:22:57.326+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.178 seconds (process running for 2108.228)
+2024-07-02T17:22:57.328+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:22:57.329+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:22:57.329+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:23:14.913+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:23:14.963+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:23:14.964+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:23:14.964+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:23:15.055+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:23:15.056+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:23:15.056+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:23:15.067+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:23:15.067+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 101 ms
+2024-07-02T17:23:15.094+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:23:15.099+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:23:15.101+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.153 seconds (process running for 2126.002)
+2024-07-02T17:23:15.102+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:23:15.102+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:23:15.103+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:23:39.844+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:23:39.899+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:23:39.901+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:23:39.901+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:23:40.012+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:23:40.013+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:23:40.014+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:23:40.027+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:23:40.028+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 125 ms
+2024-07-02T17:23:40.062+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:23:40.067+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:23:40.069+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.187 seconds (process running for 2150.971)
+2024-07-02T17:23:40.071+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:23:40.071+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:23:40.071+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:23:46.550+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:23:46.611+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:23:46.612+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:23:46.613+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:23:46.724+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:23:46.725+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:23:46.725+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:23:46.736+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:23:46.737+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 122 ms
+2024-07-02T17:23:46.766+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:23:46.772+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:23:46.774+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.184 seconds (process running for 2157.675)
+2024-07-02T17:23:46.775+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:23:46.775+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:23:46.776+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:25:09.186+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:25:09.242+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:25:09.243+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:25:09.243+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:25:09.351+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:25:09.354+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:25:09.354+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:25:09.363+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:25:09.364+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 118 ms
+2024-07-02T17:25:09.394+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:25:09.398+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:25:09.400+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.175 seconds (process running for 2240.302)
+2024-07-02T17:25:09.401+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:25:09.402+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:25:09.402+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:25:18.952+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:25:19.006+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:25:19.006+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:25:19.006+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:25:19.116+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:25:19.117+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:25:19.117+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:25:19.129+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:25:19.130+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 122 ms
+2024-07-02T17:25:19.178+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:25:19.185+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:25:19.188+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.198 seconds (process running for 2250.088)
+2024-07-02T17:25:19.189+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:25:19.189+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:25:19.190+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:25:25.668+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:25:25.725+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:25:25.726+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:25:25.726+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:25:25.880+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:25:25.882+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:25:25.882+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:25:25.893+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:25:25.893+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 165 ms
+2024-07-02T17:25:25.925+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:25:25.932+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:25:25.934+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.228 seconds (process running for 2256.835)
+2024-07-02T17:25:25.935+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:25:25.936+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:25:25.936+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:25:58.734+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:25:58.793+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:25:58.794+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:25:58.794+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:25:58.937+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:25:58.938+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:25:58.939+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:25:58.953+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:25:58.953+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 157 ms
+2024-07-02T17:25:58.996+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:25:59.002+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:25:59.004+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.23 seconds (process running for 2289.906)
+2024-07-02T17:25:59.007+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:25:59.007+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:25:59.007+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:27:15.301+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:27:15.359+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:27:15.359+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:27:15.360+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:27:15.482+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:27:15.483+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:27:15.483+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:27:15.496+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:27:15.496+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 135 ms
+2024-07-02T17:27:15.533+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:27:15.538+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:27:15.541+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.201 seconds (process running for 2366.441)
+2024-07-02T17:27:15.542+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:27:15.542+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:27:15.542+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:27:43.253+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:27:43.307+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:27:43.308+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:27:43.308+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:27:43.417+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:27:43.418+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:27:43.418+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:27:43.431+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:27:43.432+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 122 ms
+2024-07-02T17:27:43.460+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:27:43.464+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:27:43.466+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.177 seconds (process running for 2394.368)
+2024-07-02T17:27:43.467+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:27:43.467+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:27:43.468+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:27:50.930+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:27:50.983+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:27:50.983+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:27:50.984+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:27:51.088+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:27:51.089+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:27:51.090+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:27:51.102+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:27:51.102+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 117 ms
+2024-07-02T17:27:51.135+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:27:51.139+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:27:51.141+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.174 seconds (process running for 2402.042)
+2024-07-02T17:27:51.143+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:27:51.143+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:27:51.143+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:27:58.627+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:27:58.680+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:27:58.681+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:27:58.681+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:27:58.778+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:27:58.779+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:27:58.780+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:27:58.790+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:27:58.790+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 107 ms
+2024-07-02T17:27:58.823+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:27:58.827+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:27:58.829+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.166 seconds (process running for 2409.73)
+2024-07-02T17:27:58.830+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:27:58.830+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:27:58.830+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:28:31.605+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:28:31.660+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:28:31.661+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:28:31.661+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:28:31.770+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:28:31.770+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:28:31.772+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:28:31.782+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:28:31.783+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 120 ms
+2024-07-02T17:28:31.815+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:28:31.820+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:28:31.822+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.179 seconds (process running for 2442.723)
+2024-07-02T17:28:31.823+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:28:31.823+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:28:31.823+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:29:13.686+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:29:13.737+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:29:13.738+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:29:13.738+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:29:13.831+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:29:13.832+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:29:13.832+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:29:13.844+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:29:13.844+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 105 ms
+2024-07-02T17:29:13.871+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:29:13.876+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:29:13.878+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.156 seconds (process running for 2484.779)
+2024-07-02T17:29:13.879+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:29:13.879+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:29:13.879+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:29:17.320+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:29:17.378+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:29:17.378+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:29:17.379+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:29:17.484+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:29:17.485+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:29:17.486+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:29:17.499+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:29:17.499+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2024-07-02T17:29:17.532+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:29:17.537+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:29:17.539+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.179 seconds (process running for 2488.44)
+2024-07-02T17:29:17.540+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:29:17.540+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:29:17.541+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:29:56.421+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:29:56.475+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:29:56.475+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:29:56.476+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:29:56.588+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:29:56.589+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:29:56.589+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:29:56.600+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:29:56.601+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 123 ms
+2024-07-02T17:29:56.632+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:29:56.637+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:29:56.640+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.182 seconds (process running for 2527.54)
+2024-07-02T17:29:56.640+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:29:56.641+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:29:56.641+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:30:35.502+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:30:35.557+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:30:35.557+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:30:35.557+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:30:35.662+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:30:35.663+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:30:35.663+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:30:35.674+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:30:35.676+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 117 ms
+2024-07-02T17:30:35.710+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:30:35.715+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:30:35.718+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.178 seconds (process running for 2566.619)
+2024-07-02T17:30:35.719+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:30:35.719+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:30:35.719+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:30:56.380+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:30:56.438+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:30:56.439+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:30:56.439+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:30:56.576+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:30:56.577+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:30:56.578+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:30:56.589+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:30:56.589+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 148 ms
+2024-07-02T17:30:56.620+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:30:56.624+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:30:56.626+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.206 seconds (process running for 2587.527)
+2024-07-02T17:30:56.627+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:30:56.627+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:30:56.628+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:31:36.520+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:31:36.591+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:31:36.592+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:31:36.592+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:31:36.735+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:31:36.736+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:31:36.736+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:31:36.746+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:31:36.746+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 152 ms
+2024-07-02T17:31:36.779+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:31:36.784+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:31:36.786+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.223 seconds (process running for 2627.687)
+2024-07-02T17:31:36.787+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:31:36.787+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:31:36.787+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:40:21.093+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:40:21.150+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:40:21.151+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:40:21.151+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:40:21.258+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:40:21.259+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:40:21.260+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:40:21.270+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:40:21.270+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 118 ms
+2024-07-02T17:40:21.302+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:40:21.307+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:40:21.308+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.175 seconds (process running for 3152.21)
+2024-07-02T17:40:21.310+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:40:21.310+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:40:21.310+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:41:14.348+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:41:14.419+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:41:14.419+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:41:14.420+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:41:14.520+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:41:14.520+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:41:14.520+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:41:14.530+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:41:14.532+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 110 ms
+2024-07-02T17:41:14.561+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:41:14.566+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:41:14.567+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.17 seconds (process running for 3205.469)
+2024-07-02T17:41:14.569+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:41:14.570+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:41:14.570+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:41:24.085+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:41:24.140+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:41:24.140+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:41:24.142+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:41:24.251+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:41:24.252+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:41:24.253+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:41:24.263+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:41:24.263+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 120 ms
+2024-07-02T17:41:24.296+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:41:24.301+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:41:24.304+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.181 seconds (process running for 3215.205)
+2024-07-02T17:41:24.304+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:41:24.305+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:41:24.305+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:41:29.766+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:41:29.827+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:41:29.827+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:41:29.828+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:41:29.927+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:41:29.928+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:41:29.929+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:41:29.938+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:41:29.938+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 108 ms
+2024-07-02T17:41:29.967+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:41:29.972+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:41:29.974+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.167 seconds (process running for 3220.875)
+2024-07-02T17:41:29.975+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:41:29.975+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:41:29.975+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:41:40.516+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:41:40.571+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:41:40.572+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:41:40.572+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:41:40.681+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:41:40.682+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:41:40.682+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:41:40.692+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:41:40.692+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2024-07-02T17:41:40.728+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:41:40.737+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:41:40.740+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.186 seconds (process running for 3231.641)
+2024-07-02T17:41:40.742+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:41:40.742+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:41:40.742+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:41:52.315+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:41:52.374+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:41:52.375+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:41:52.375+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:41:52.470+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:41:52.471+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:41:52.472+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:41:52.482+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:41:52.482+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 105 ms
+2024-07-02T17:41:52.508+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:41:52.513+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:41:52.515+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.159 seconds (process running for 3243.416)
+2024-07-02T17:41:52.516+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:41:52.516+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:41:52.517+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:41:57.971+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:41:58.030+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:41:58.030+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:41:58.031+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:41:58.136+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:41:58.137+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:41:58.138+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:41:58.149+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:41:58.150+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 116 ms
+2024-07-02T17:41:58.187+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:41:58.193+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:41:58.195+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.183 seconds (process running for 3249.096)
+2024-07-02T17:41:58.196+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:41:58.196+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:41:58.196+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:43:20.474+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:43:20.535+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:43:20.535+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:43:20.536+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:43:20.650+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:43:20.651+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:43:20.651+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:43:20.662+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:43:20.663+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 124 ms
+2024-07-02T17:43:20.695+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:43:20.700+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:43:20.702+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.187 seconds (process running for 3331.603)
+2024-07-02T17:43:20.703+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:43:20.703+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:43:20.704+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:48:49.344+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:48:49.399+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:48:49.400+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:48:49.400+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:48:49.503+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:48:49.504+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:48:49.505+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:48:49.515+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:48:49.515+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 113 ms
+2024-07-02T17:48:49.543+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:48:49.548+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:48:49.550+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.168 seconds (process running for 3660.451)
+2024-07-02T17:48:49.551+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:48:49.551+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:48:49.552+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:49:19.296+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:49:19.346+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:49:19.347+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:49:19.347+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:49:19.444+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:49:19.445+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:49:19.446+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:49:19.456+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:49:19.456+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 107 ms
+2024-07-02T17:49:19.485+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:49:19.490+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:49:19.492+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.16 seconds (process running for 3690.393)
+2024-07-02T17:49:19.493+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:49:19.493+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:49:19.494+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:50:01.378+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:50:01.450+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:50:01.451+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:50:01.451+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:50:01.576+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:50:01.577+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:50:01.578+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:50:01.588+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:50:01.589+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 136 ms
+2024-07-02T17:50:01.622+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:50:01.628+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:50:01.630+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.203 seconds (process running for 3732.531)
+2024-07-02T17:50:01.631+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:50:01.631+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:50:01.632+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:50:21.243+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:50:21.297+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:50:21.297+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:50:21.297+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:50:21.398+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:50:21.399+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:50:21.399+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:50:21.409+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:50:21.409+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 110 ms
+2024-07-02T17:50:21.436+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:50:21.441+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:50:21.442+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.163 seconds (process running for 3752.343)
+2024-07-02T17:50:21.443+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:50:21.443+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:50:21.444+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:51:24.683+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:51:24.739+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:51:24.740+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:51:24.740+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:51:24.846+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:51:24.847+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:51:24.849+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:51:24.859+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:51:24.859+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 117 ms
+2024-07-02T17:51:24.889+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:51:24.893+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:51:24.896+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.174 seconds (process running for 3815.797)
+2024-07-02T17:51:24.896+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:51:24.898+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:51:24.898+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:52:02.750+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:52:02.805+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:52:02.805+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:52:02.805+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:52:02.914+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:52:02.914+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:52:02.915+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:52:02.925+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:52:02.926+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2024-07-02T17:52:02.964+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:52:02.969+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:52:02.971+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.183 seconds (process running for 3853.872)
+2024-07-02T17:52:02.972+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:52:02.972+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:52:02.973+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:52:57.036+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:52:57.092+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:52:57.092+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:52:57.093+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:52:57.213+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:52:57.214+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:52:57.214+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:52:57.225+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:52:57.226+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 131 ms
+2024-07-02T17:52:57.262+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:52:57.267+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:52:57.269+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.194 seconds (process running for 3908.17)
+2024-07-02T17:52:57.270+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:52:57.270+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:52:57.271+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:54:03.438+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:54:03.494+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:54:03.495+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:54:03.495+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:54:03.600+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:54:03.601+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:54:03.601+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:54:03.612+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:54:03.612+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 115 ms
+2024-07-02T17:54:03.646+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:54:03.653+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:54:03.655+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.178 seconds (process running for 3974.556)
+2024-07-02T17:54:03.656+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:54:03.656+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:54:03.657+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:54:11.158+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:54:11.213+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:54:11.214+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:54:11.214+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:54:11.325+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:54:11.326+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:54:11.326+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:54:11.339+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:54:11.339+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 123 ms
+2024-07-02T17:54:11.374+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:54:11.380+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:54:11.383+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.186 seconds (process running for 3982.284)
+2024-07-02T17:54:11.384+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:54:11.384+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:54:11.385+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:55:26.594+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:55:26.647+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:55:26.648+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:55:26.649+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:55:26.758+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:55:26.758+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:55:26.759+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:55:26.771+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:55:26.771+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 121 ms
+2024-07-02T17:55:26.805+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:55:26.811+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:55:26.815+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.184 seconds (process running for 4057.715)
+2024-07-02T17:55:26.815+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:55:26.816+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:55:26.816+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:56:08.713+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:56:08.770+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:56:08.771+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:56:08.771+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:56:08.893+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:56:08.894+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:56:08.895+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:56:08.907+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:56:08.908+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 135 ms
+2024-07-02T17:56:08.938+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:56:08.943+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:56:08.945+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.194 seconds (process running for 4099.846)
+2024-07-02T17:56:08.946+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:56:08.946+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:56:08.946+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:56:12.378+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:56:12.434+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:56:12.434+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:56:12.434+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:56:12.542+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:56:12.542+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:56:12.543+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:56:12.554+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:56:12.554+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2024-07-02T17:56:12.586+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:56:12.591+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:56:12.593+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.177 seconds (process running for 4103.494)
+2024-07-02T17:56:12.594+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:56:12.595+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:56:12.595+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:56:46.384+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:56:46.450+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:56:46.451+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:56:46.451+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:56:46.606+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:56:46.607+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:56:46.607+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:56:46.621+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:56:46.621+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 167 ms
+2024-07-02T17:56:46.660+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:56:46.666+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:56:46.668+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.24 seconds (process running for 4137.57)
+2024-07-02T17:56:46.671+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:56:46.671+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:56:46.672+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:58:24.117+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:58:24.175+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:58:24.176+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:58:24.176+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:58:24.289+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:58:24.290+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:58:24.290+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:58:24.301+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:58:24.302+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 124 ms
+2024-07-02T17:58:24.330+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:58:24.335+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:58:24.338+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.181 seconds (process running for 4235.238)
+2024-07-02T17:58:24.338+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:58:24.338+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:58:24.339+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:59:05.245+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:59:05.303+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:59:05.304+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:59:05.304+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:59:05.418+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:59:05.419+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:59:05.419+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:59:05.430+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:59:05.430+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 123 ms
+2024-07-02T17:59:05.461+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:59:05.466+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:59:05.469+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.185 seconds (process running for 4276.369)
+2024-07-02T17:59:05.469+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:59:05.469+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:59:05.470+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:59:28.127+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:59:28.181+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:59:28.182+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:59:28.182+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:59:28.286+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:59:28.287+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:59:28.287+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:59:28.300+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:59:28.301+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 117 ms
+2024-07-02T17:59:28.327+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:59:28.332+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:59:28.334+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.169 seconds (process running for 4299.234)
+2024-07-02T17:59:28.334+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:59:28.335+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:59:28.335+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T17:59:37.850+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T17:59:37.905+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T17:59:37.906+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T17:59:37.906+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T17:59:38.005+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T17:59:38.006+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T17:59:38.007+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T17:59:38.018+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T17:59:38.019+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 112 ms
+2024-07-02T17:59:38.050+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T17:59:38.055+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T17:59:38.058+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.169 seconds (process running for 4308.959)
+2024-07-02T17:59:38.059+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T17:59:38.059+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T17:59:38.059+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T18:01:48.032+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T18:01:48.086+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T18:01:48.087+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T18:01:48.087+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T18:01:48.187+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T18:01:48.188+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T18:01:48.188+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T18:01:48.199+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T18:01:48.200+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 111 ms
+2024-07-02T18:01:48.226+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T18:01:48.232+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T18:01:48.234+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.164 seconds (process running for 4439.134)
+2024-07-02T18:01:48.234+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T18:01:48.234+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T18:01:48.235+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T18:02:27.121+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T18:02:27.176+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T18:02:27.177+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T18:02:27.177+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T18:02:27.289+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T18:02:27.290+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T18:02:27.291+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T18:02:27.303+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T18:02:27.303+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 124 ms
+2024-07-02T18:02:27.334+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T18:02:27.340+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T18:02:27.342+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.183 seconds (process running for 4478.243)
+2024-07-02T18:02:27.343+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T18:02:27.343+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T18:02:27.344+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T18:02:39.884+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T18:02:39.939+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T18:02:39.940+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T18:02:39.940+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T18:02:40.047+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T18:02:40.048+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T18:02:40.048+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T18:02:40.060+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T18:02:40.061+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2024-07-02T18:02:40.096+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T18:02:40.101+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T18:02:40.103+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.18 seconds (process running for 4491.005)
+2024-07-02T18:02:40.105+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T18:02:40.106+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T18:02:40.106+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T18:04:23.838+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T18:04:23.893+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T18:04:23.894+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T18:04:23.894+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T18:04:24.013+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T18:04:24.014+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T18:04:24.014+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T18:04:24.025+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T18:04:24.026+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 131 ms
+2024-07-02T18:04:24.057+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T18:04:24.065+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T18:04:24.067+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.191 seconds (process running for 4594.969)
+2024-07-02T18:04:24.068+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T18:04:24.069+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T18:04:24.069+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T18:05:16.061+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T18:05:16.126+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T18:05:16.126+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T18:05:16.127+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T18:05:16.233+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T18:05:16.234+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T18:05:16.234+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T18:05:16.244+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T18:05:16.244+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 116 ms
+2024-07-02T18:05:16.273+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T18:05:16.278+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T18:05:16.279+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.174 seconds (process running for 4647.18)
+2024-07-02T18:05:16.280+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T18:05:16.280+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T18:05:16.281+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T18:06:39.743+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T18:06:39.816+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T18:06:39.817+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T18:06:39.817+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T18:06:40.015+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T18:06:40.017+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T18:06:40.018+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T18:06:40.032+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T18:06:40.034+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 215 ms
+2024-07-02T18:06:40.075+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T18:06:40.081+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T18:06:40.083+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.292 seconds (process running for 4730.985)
+2024-07-02T18:06:40.085+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T18:06:40.085+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T18:06:40.085+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T18:07:36.181+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T18:07:36.245+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T18:07:36.246+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T18:07:36.246+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T18:07:36.359+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T18:07:36.360+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T18:07:36.361+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T18:07:36.374+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T18:07:36.374+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 126 ms
+2024-07-02T18:07:36.404+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T18:07:36.409+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T18:07:36.411+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.185 seconds (process running for 4787.312)
+2024-07-02T18:07:36.412+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T18:07:36.412+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T18:07:36.413+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T18:11:16.573+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T18:11:16.635+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T18:11:16.636+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T18:11:16.637+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T18:11:16.763+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T18:11:16.764+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T18:11:16.765+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T18:11:16.778+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T18:11:16.778+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 140 ms
+2024-07-02T18:11:16.805+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T18:11:16.810+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T18:11:16.812+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.198 seconds (process running for 5007.712)
+2024-07-02T18:11:16.812+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T18:11:16.813+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T18:11:16.813+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T18:11:41.463+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T18:11:41.519+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T18:11:41.520+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T18:11:41.520+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T18:11:41.628+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T18:11:41.629+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T18:11:41.630+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T18:11:41.639+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T18:11:41.639+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 117 ms
+2024-07-02T18:11:41.666+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T18:11:41.671+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T18:11:41.673+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.172 seconds (process running for 5032.574)
+2024-07-02T18:11:41.674+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T18:11:41.674+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T18:11:41.675+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T18:11:44.096+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T18:11:44.149+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T18:11:44.149+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T18:11:44.150+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T18:11:44.260+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T18:11:44.260+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T18:11:44.261+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T18:11:44.273+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T18:11:44.273+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 122 ms
+2024-07-02T18:11:44.301+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T18:11:44.307+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T18:11:44.308+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.176 seconds (process running for 5035.209)
+2024-07-02T18:11:44.309+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T18:11:44.309+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T18:11:44.309+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
+2024-07-02T18:13:00.675+08:00  INFO 7920 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-02T18:13:00.731+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 7920 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-02T18:13:00.732+08:00 DEBUG 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-02T18:13:00.732+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-02T18:13:00.838+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-02T18:13:00.839+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-02T18:13:00.839+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-02T18:13:00.850+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-02T18:13:00.850+08:00  INFO 7920 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 116 ms
+2024-07-02T18:13:00.878+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-02T18:13:00.884+08:00  INFO 7920 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-02T18:13:00.886+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.172 seconds (process running for 5111.787)
+2024-07-02T18:13:00.887+08:00  INFO 7920 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-02T18:13:00.887+08:00  INFO 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Application started successfully
+2024-07-02T18:13:00.887+08:00 TRACE 7920 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Main method accessed
