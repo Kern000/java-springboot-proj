@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 import java.time.LocalDateTime;
 import java.time.Duration;
+import java.util.Objects;
 
 public class Practice {
 
@@ -76,13 +77,26 @@ public class Practice {
     public void getTopicsCovered(ArrayList<String> topicsCovered){
         this.topicsCovered = topicsCovered;
     }
-    
+
     //objects that are equal (or the same object) must consistently return the same hash code;
     //diff objects do not need return diff hash codes, though distinct hash codes improves performance of hash tables;
+    //hashcode method return hash code of non-null argument and 0 for null argument;
+    // hash code (of the object) can be used as keys in the hashmap to ensure objects properly distributed within map;
 
     @Override
     public int hashCode(){
-        return Objects.hash(id,title,timeStarted,timeEnded,topicsCovered);
+        return Objects.hash(id, title, timeStarted, timeEnded, topicsCovered);
     }
+
+    @Override
+    public String toString(){
+        return  "Practice {" + "id:" + id + 
+                ", title:" + title + 
+                ", timeStarted:" + timeStarted +
+                ", timeEnded:" + timeEnded +
+                ", topicsCovered: " + topicsCovered.toString() +
+                "}";
+    }
+
 
 }
