@@ -7,6 +7,11 @@ import java.time.LocalDateTime;
 import java.time.Duration;
 import java.util.Objects;
 
+import com.kern000.coders_practice.practices.LanguageType;
+
+// Or can use a "record" to define these, including the getters, setters, equals, hashcode, and toString Methods
+// Record class are immutable (cannot change);
+
 public class Practice {
 
     //fields tt this class needs to know about
@@ -15,14 +20,17 @@ public class Practice {
     private LocalDateTime timeStarted;
     private LocalDateTime timeEnded;
     private ArrayList<String> topicsCovered = new ArrayList<String>();
+    private LanguageType codingLanguage; //enum constants
     // private Location location;
 
-    public Practice(Integer id, String title, LocalDateTime timeStarted, LocalDateTime timeEnded, ArrayList<String> topicsCovered){
+    public Practice(Integer id, String title, LocalDateTime timeStarted, LocalDateTime timeEnded, ArrayList<String> topicsCovered, LanguageType codingLanguage){
         this.id = id;
         this.title = title;
         this.timeStarted = timeStarted;
         this.timeEnded = timeEnded;
         this.topicsCovered = topicsCovered;
+        this.codingLanguage = codingLanguage;
+        
         if(timeStarted.isAfter(timeEnded)){
             throw new IllegalArgumentException("Time started cannot be after time ended.");
         }
@@ -55,6 +63,10 @@ public class Practice {
 
     public Duration getDuration(){
         return Duration.between(timeStarted, timeEnded);
+    }
+
+    public LanguageType getLanguageType(){
+        return codingLanguage;
     }
 
     // setters
@@ -94,7 +106,8 @@ public class Practice {
                 ", title:" + title + 
                 ", timeStarted:" + timeStarted +
                 ", timeEnded:" + timeEnded +
-                ", topicsCovered: " + topicsCovered.toString() +
+                ", topicsCovered:" + topicsCovered.toString() +
+                ", codingLanguage:" + codingLanguage.toString() +
                 "}";
     }
 
