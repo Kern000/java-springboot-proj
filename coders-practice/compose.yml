@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: 'postgres:3.9'
+    environment:
+      - 'POSTGRES_DB=coders-practice-db'
+      - 'POSTGRES_PASSWORD=coders-practice-password'
+      - 'POSTGRES_USER=coders-practice-user'
+    ports:
+      - '5432:5432'
+
+# image version need to tie down w team
+# one port specified = only dynamic port on local host but postgres run on port 5432 in the container
+# "5432:5432" means map to 5432 on our local machine when using our database
+# Does require docker desktop in development

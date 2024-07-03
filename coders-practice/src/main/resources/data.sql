@@ -1,0 +1,2 @@
+INSERT INTO Practice (id, title, timeStarted, timeEnded, topicsCovered, codingLanguage)
+VALUES (1, 'First Practice', '2024-07-03T16:24:51.1110457', '2024-07-04T16:24:51.1110457', '["test1", "test2", "test3"]', 'Python');

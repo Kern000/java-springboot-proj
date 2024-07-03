@@ -9,21 +9,34 @@ import java.util.Objects;
 
 import com.kern000.coders_practice.practices.LanguageType;
 
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.Positive;
+
 // Or can use a "record" to define these, including the getters, setters, equals, hashcode, and toString Methods
 // Record class are immutable (cannot change);
 
 public class Practice {
 
     //fields tt this class needs to know about
+    @Positive
     private Integer id;
+    @NotEmpty
+    @Pattern(regexp = "^[a-zA-Z0-9 ]{1,50}$")
     private String title;
     private LocalDateTime timeStarted;
     private LocalDateTime timeEnded;
-    private ArrayList<String> topicsCovered = new ArrayList<String>();
+    private ArrayList<@Pattern(regexp = "^[a-zA-Z0-9 ]{1,50}$") String> topicsCovered = new ArrayList<String>();
     private LanguageType codingLanguage; //enum constants
     // private Location location;
 
-    public Practice(Integer id, String title, LocalDateTime timeStarted, LocalDateTime timeEnded, ArrayList<String> topicsCovered, LanguageType codingLanguage){
+    public Practice(
+                    Integer id, 
+                    String title, 
+                    LocalDateTime timeStarted, 
+                    LocalDateTime timeEnded, 
+                    ArrayList<String> topicsCovered, 
+                    LanguageType codingLanguage){
         this.id = id;
         this.title = title;
         this.timeStarted = timeStarted;
@@ -34,6 +47,7 @@ public class Practice {
         if(timeStarted.isAfter(timeEnded)){
             throw new IllegalArgumentException("Time started cannot be after time ended.");
         }
+
     }
 
     //getters

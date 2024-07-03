@@ -42,3 +42,14 @@ For a web application, you need only spring-boot-starter-web, since it depends t
 
 // log levels: info, warn, error, debug, trace;
 // Logback framework is the logger;
+
+It is possible to use H2 Database which is an in memory database, and it supports JDBC (Java Database connectivity API - defines how client connect and query DB - ORM based on Repository abstraction - Repository in Java is Data Access Layer - JBDC is synchronous) and R2DBC (For reactive programming - Asynchronous for non-blocking)
+
+After renaming the h2 DB name: loopback address w port number service URI
+http://127.0.0.1:8085/h2-console/login.jsp?jsessionid=bc6c03bbd35880bc154082c2f768dafc
+
+url = jdbc:h2:mem:coders-practice
+
+h2 is not for persistent data usage
+
+Compose also supports docker-compose.yaml and docker-compose.yml for backwards compatibility of earlier versions
