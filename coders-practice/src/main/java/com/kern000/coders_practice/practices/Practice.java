@@ -7,6 +7,10 @@ import java.time.LocalDateTime;
 import java.time.Duration;
 import java.util.Objects;
 
+import org.springframework.data.annotation.Id;
+// Note the annotation Id from using Spring Data, in the interface
+import org.springframework.data.annotation.Version;
+
 import com.kern000.coders_practice.practices.LanguageType;
 
 import jakarta.validation.constraints.NotEmpty;
@@ -20,6 +24,7 @@ public class Practice {
 
     //fields tt this class needs to know about
     @Positive
+    @Id
     private Integer id;
     @NotEmpty
     @Pattern(regexp = "^[a-zA-Z0-9 ]{1,50}$")
@@ -29,6 +34,8 @@ public class Practice {
     private ArrayList<@Pattern(regexp = "^[a-zA-Z0-9 ]{1,50}$") String> topicsCovered = new ArrayList<String>();
     private LanguageType codingLanguage; //enum constants
     // private Location location;
+    @Version //Specific to Spring Data JDBC
+    Integer version; // track whether new row or existing row
 
     public Practice(
                     Integer id, 

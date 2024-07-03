@@ -4,5 +4,6 @@ CREATE TABLE IF NOT EXISTS Practice (
     timeStarted timestamp NOT NULL,
     timeEnded timestamp NOT NULL,
     topicsCovered VARCHAR(255) NOT NULL,
-    codingLanguage VARCHAR(30) NOT NULL
+    codingLanguage VARCHAR(30) NOT NULL,
+    version INT
 );

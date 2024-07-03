@@ -1,6 +1,6 @@
 services:
   postgres:
-    image: 'postgres:3.9'
+    image: 'postgres:latest'
     environment:
       - 'POSTGRES_DB=coders-practice-db'
       - 'POSTGRES_PASSWORD=coders-practice-password'

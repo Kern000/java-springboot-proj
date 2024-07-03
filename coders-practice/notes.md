@@ -53,3 +53,7 @@ url = jdbc:h2:mem:coders-practice
 h2 is not for persistent data usage
 
 Compose also supports docker-compose.yaml and docker-compose.yml for backwards compatibility of earlier versions
+
+Spring Data is collection of tools and framework tt tries to save on CRUD methods for data access. JPA - Java Persistence API is the standard approach to ORM in Java; Hibernate ORM implements Spring Data JPA; 
+
+Spring Data JDBC focus on simplifying data access layer using plain JDBC rather than JPA
