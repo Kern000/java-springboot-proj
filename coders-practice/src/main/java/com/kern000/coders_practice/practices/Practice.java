@@ -7,6 +7,7 @@ import java.time.LocalDateTime;
 import java.time.Duration;
 import java.util.Objects;
 
+
 import org.springframework.data.annotation.Id;
 // Note the annotation Id from using Spring Data, in the interface
 import org.springframework.data.annotation.Version;
@@ -27,11 +28,12 @@ public class Practice {
     @Id
     private Integer id;
     @NotEmpty
-    @Pattern(regexp = "^[a-zA-Z0-9 ]{1,50}$")
+    @Pattern(regexp = "^[a-zA-Z0-9._, ]{1,50}$")
     private String title;
     private LocalDateTime timeStarted;
     private LocalDateTime timeEnded;
-    private ArrayList<@Pattern(regexp = "^[a-zA-Z0-9 ]{1,50}$") String> topicsCovered = new ArrayList<String>();
+    private ArrayList<@Pattern(regexp = "^[a-zA-Z0-9._, ]{1,50}$") String> topicsCovered = new ArrayList<String>();
+    
     private LanguageType codingLanguage; //enum constants
     // private Location location;
     @Version //Specific to Spring Data JDBC
@@ -50,6 +52,7 @@ public class Practice {
         this.timeEnded = timeEnded;
         this.topicsCovered = topicsCovered;
         this.codingLanguage = codingLanguage;
+
         
         if(timeStarted.isAfter(timeEnded)){
             throw new IllegalArgumentException("Time started cannot be after time ended.");
@@ -107,7 +110,7 @@ public class Practice {
         this.timeEnded = timeEnded;
     }
 
-    public void getTopicsCovered(ArrayList<String> topicsCovered){
+    public void setTopicsCovered(ArrayList<String> topicsCovered){
         this.topicsCovered = topicsCovered;
     }
 

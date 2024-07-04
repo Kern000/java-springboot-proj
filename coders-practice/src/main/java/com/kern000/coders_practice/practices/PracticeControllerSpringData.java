@@ -6,6 +6,7 @@ import org.springframework.web.server.ResponseStatusException;
 import jakarta.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jdbc.repository.query.Query;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -21,36 +22,25 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.PutMapping;
-
+import org.springframework.web.bind.annotation.RequestParam;
 
 
 @RestController //class that response to req
-@RequestMapping("/api/practices") // every api here have this base API
-public class PracticeController {
+@RequestMapping("/api/springdata") // every api here have this base API
+public class PracticeControllerSpringData {
+    
+    private final SpringDataPracticeRepo practiceRepository;
 
-    // Don't initialize new instance of repository every time a req comes into the controller;
-    // so don't do public PracticeController(){
-        // this.PracticeRepository = new PracticeRepository();
-    // }
-
-    // Dependency injection, we are going to ask Spring for it
-
-    // @Autowired //not recommended - mock testing problematic - Autowire means Spring auto inject a dependency from the beans in its container // also create tight coupling betw classes and spring;
-    private final JDBCPracticeRepository practiceRepository;
-
-    public PracticeController(JDBCPracticeRepository practiceRepository){
+    public PracticeControllerSpringData(SpringDataPracticeRepo practiceRepository){
         this.practiceRepository = practiceRepository;
     }
 
     @GetMapping()
     List<Practice> findAllPractices(){
+
+
         return practiceRepository.findAll();
     }
-
-    // @GetMapping("/{id}") //{id} is placeholder
-    // Practice findById(@PathVariable Integer id) {
-    //     return practiceRepository.findById(id);
-    // }
     
     @GetMapping("/{id}") //{id} is placeholder
     Practice findById(@Valid @PathVariable Integer id) {
@@ -61,25 +51,37 @@ public class PracticeController {
         return practice.get(); //can use .get() because practice is a list;
     }
 
+    @GetMapping("/find")
+    List<Practice> searchByTitle(@RequestParam("title") String titleString){
+        return practiceRepository.findByTitle(titleString);
+    }
+    
     //post
     @PostMapping("/create")
     @ResponseStatus(HttpStatus.CREATED)
     void createOne(@Valid @RequestBody Practice practice){
-        practiceRepository.createOne(practice);
+        System.out.println("Managed to come in here");
+
+        practiceRepository.save(practice);
     }
     
     //put
     @PutMapping("/update/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     void updateOne(@Valid @PathVariable Integer id, @RequestBody Practice practice){
-        practiceRepository.updateOneById(id, practice);
+        Practice existingPractice = practiceRepository.findById(id).get();
+        existingPractice.setTitle(practice.getTitle());
+        existingPractice.setStartTime(practice.getStartTime());
+        existingPractice.setEndTime(practice.getEndTime());
+        existingPractice.setTopicsCovered(practice.getTopicsCovered());
+        practiceRepository.save(existingPractice);
     }
 
     //delete
     @DeleteMapping("/delete/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     void deleteOne(@Valid @PathVariable Integer id){
-        practiceRepository.delete(id);
+        practiceRepository.delete(practiceRepository.findById(id).get());
     }
     
 }

@@ -57,3 +57,7 @@ Compose also supports docker-compose.yaml and docker-compose.yml for backwards c
 Spring Data is collection of tools and framework tt tries to save on CRUD methods for data access. JPA - Java Persistence API is the standard approach to ORM in Java; Hibernate ORM implements Spring Data JPA; 
 
 Spring Data JDBC focus on simplifying data access layer using plain JDBC rather than JPA
+
+Rest Client can be implemented in the spring framework - it is used to consume API endpoints/webservices provided by another application or service. 
+=> under the web spring dependency;
+

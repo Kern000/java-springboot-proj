@@ -14,12 +14,12 @@ import org.springframework.stereotype.Repository;
 // import jakarta.annotation.PostConstruct;
 
 @Repository //central hub for managing all data access logic //This makes this a bean and joins the Spring IoC container
-public class PracticeRepository {
+public class JDBCPracticeRepository {
 
-    private static final Logger log = LoggerFactory.getLogger(PracticeRepository.class);
+    private static final Logger log = LoggerFactory.getLogger(JDBCPracticeRepository.class);
     private final JdbcClient jdbcClient;
 
-    public PracticeRepository(JdbcClient jdbcClient){
+    public JDBCPracticeRepository(JdbcClient jdbcClient){
         this.jdbcClient = jdbcClient;
     }
 
@@ -38,7 +38,7 @@ public class PracticeRepository {
 
     public void createOne(Practice practice){
         // is creating variable without specifying type
-        var updated = jdbcClient.sql("INSERT INTO Practice(id,title,timeStarted,timeEnded,topicsCovered,codingLanguage) values(?,?,?,?,?,?)")
+        var updated = jdbcClient.sql("INSERT INTO Practice(id,title,time_started,time_ended,topics_covered,coding_language) values(?,?,?,?,?,?)")
                         .params(List.of(    practice.getId(),
                                             practice.getTitle(),
                                             practice.getStartTime(),
@@ -52,7 +52,7 @@ public class PracticeRepository {
     }
 
     public void updateOneById(Integer id, Practice practice){
-        var updated = jdbcClient.sql("update Practice set title = ?, timeStarted = ?, timeEnded = ?, topicsCovered = ?, codingLanguage = ? WHERE id =?")
+        var updated = jdbcClient.sql("update Practice set title = ?, time_started = ?, time_ended = ?, topics_covered = ?, coding_language = ? WHERE id =?")
                                     .params(List.of(    practice.getTitle(), 
                                                         practice.getStartTime(), 
                                                         practice.getEndTime(), 

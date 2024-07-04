@@ -1,5 +1,5 @@
 package com.kern000.coders_practice.practices;
 
 public enum LanguageType {
-    Python, Java, JavaScript, C, Others
+    PYTHON, JAVA, JAVASCRIPT, C, OTHERS
 }
