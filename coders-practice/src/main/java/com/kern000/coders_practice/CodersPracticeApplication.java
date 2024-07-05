@@ -2,21 +2,21 @@
 
 package com.kern000.coders_practice;
 
+import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.Bean; //logger
+import org.springframework.web.client.RestClient; //interface, not the actual logger
+import org.springframework.web.client.support.RestClientAdapter;
+import org.springframework.web.service.invoker.HttpServiceProxyFactory;
 
-import java.time.LocalDateTime;
-import java.util.ArrayList;
+import com.kern000.coders_practice.user.User;
+import com.kern000.coders_practice.user.UserHTTPClient;
 
-// import org.springframework.context.ConfigurableApplicationContext;
-import org.slf4j.Logger; //logger
-import org.slf4j.LoggerFactory; //interface, not the actual logger
-
-import org.springframework.context.annotation.Bean;
-
-import com.kern000.coders_practice.practices.LanguageType;
-import com.kern000.coders_practice.practices.Practice;
 
 @SpringBootApplication
 public class CodersPracticeApplication {
@@ -47,5 +47,41 @@ public class CodersPracticeApplication {
 	// 		log.info("Practice: " + practice);
 	// 	};
 	// } //run when application start
+
+	
+
+	@Bean 	//boiler plate to tell Spring that this is the HTTP Client, we create a rest client using a static factory method
+	UserHTTPClient userHTTPClient(){
+		RestClient restClient = RestClient.create("https://jsonplaceholder.typicode.com/"); //
+		HttpServiceProxyFactory factory = HttpServiceProxyFactory.builderFor(RestClientAdapter.create(restClient)).build();
+		return factory.createClient(UserHTTPClient.class);
+	}
+
+	@Bean
+	CommandLineRunner runner(UserHTTPClient restClient){
+		return args -> {
+			List<User> users = restClient.findAll();
+			System.out.println(users);
+
+			User user = restClient.findById(1);
+			System.out.println(user);
+
+			System.out.println("Completion Auto here");
+		};
+	}
+
+	// manual method implemental w UserRestClient
+	// @Bean
+	// CommandLineRunner runner2(UserRestClient restClient){ //pass in an instance of UserRestClient as a variable name restClient - the instance is managed by Spring Container
+	// 	return args -> {
+	// 		List<User> users = restClient.findAll(); //calls the findAll() method of UserRestClient
+	// 		System.out.println(users);
+
+	// 		User user = restClient.findById(1);
+	// 		System.out.println(user);
+
+	// 		System.out.println("Completion Manual here");
+	// 	};
+	// }
 
 }

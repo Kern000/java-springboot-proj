@@ -61,3 +61,6 @@ Spring Data JDBC focus on simplifying data access layer using plain JDBC rather 
 Rest Client can be implemented in the spring framework - it is used to consume API endpoints/webservices provided by another application or service. 
 => under the web spring dependency;
 
+Junit (unit test), Spring test (support for integration test), Mockito (mock so only focus on testing tt controller)
+
+
