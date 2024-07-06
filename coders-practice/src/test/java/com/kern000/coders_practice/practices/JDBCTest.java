@@ -6,14 +6,20 @@
 // import static org.junit.jupiter.api.Assertions.assertEquals;
 // import org.junit.jupiter.api.BeforeEach;
 // import org.junit.jupiter.api.Test;
+// import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.boot.test.autoconfigure.jdbc.JdbcTest;
+// import org.springframework.context.annotation.Import;
 
-// public class MemoryJDBCRepositoryTest {
+// @JdbcTest
+// @Import(JDBCPracticeRepository.class)
 
-//     InMemoryRepository repository;
+// class JDBCTest {
+
+//     @Autowired
+//     JDBCPracticeRepository repository;
 
 //     @BeforeEach
 //     void setup(){
-//         repository = new InMemoryRepository();
 //         ArrayList<String> topicsCovered = new ArrayList<>();
 //         topicsCovered.add("REST Client");
 //         topicsCovered.add("Testing");
@@ -23,12 +29,12 @@
 //     }
 
 //     @Test
-//     void testFindAll() {
+//     void JdbcTestFindAll() {
 //         assertEquals(2, repository.findAll().size());
 //     }
 
 //     @Test
-//     void findingSpecificPractice(){
+//     void JdbcTestFindingSpecificPractice(){
 //         var practice = repository.findById(2).get();
 //         String testComparison = "[REST Client, Testing]";
 //         assertEquals(testComparison, practice.getTopicsCovered().toString());
@@ -36,7 +42,7 @@
 //     }
 
 //     @Test
-//     void shouldCreateNewPractice(){
+//     void JdbcTestShouldCreateNewPractice(){
 
 //         ArrayList<String> newTopicsCovered = new ArrayList<>();
 //         newTopicsCovered.add("Revising h2 and application properties");
@@ -45,19 +51,23 @@
 //         assertEquals(3, repository.findAll().size());
 //     }
 
-//     @Test
-//     void shouldUpdatePractice(){
-//         ArrayList<String> newTopicsCovered = new ArrayList<>();
-//         newTopicsCovered.add("Revising h2 and application properties");
-//         repository.updateOneById(1, new Practice(1, "test practice 1", LocalDateTime.now(), LocalDateTime.now().plusHours(2), newTopicsCovered, LanguageType.JAVA));
-//         var foundPractice = repository.findById(1).get();
-//         assertEquals("JAVA", foundPractice.getLanguageType().toString());
-//         assertEquals("[Revising h2 and application properties]", foundPractice.getTopicsCovered().toString());
-//     }
+//     // @Test
+//     // void JdbcTestShouldUpdatePractice(){
+//     //     ArrayList<String> newTopicsCovered = new ArrayList<>();
+//     //     newTopicsCovered.add("Revising h2 and application properties");
+//     //     repository.updateOneById(1, new Practice(1, "test practice 1", LocalDateTime.now(), LocalDateTime.now().plusHours(2), newTopicsCovered, LanguageType.JAVA));
+//     //     var foundPractice = repository.findById(1).get();
+//     //     assertEquals("JAVA", foundPractice.getLanguageType().toString());
+//     //     assertEquals("[Revising h2 and application properties]", foundPractice.getTopicsCovered().toString());
+//     // }
 
 //     @Test
-//     void shouldDeletePractice(){
+//     void JdbcTestShouldDeletePractice(){
 //         repository.delete(3);
 //         assertEquals(2, repository.findAll().size());
 //     }
+
+
+    
 // }
+
