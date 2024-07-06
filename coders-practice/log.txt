@@ -869,3 +869,101 @@ Unconditional classes:
 2024-07-06T18:38:17.560+08:00  INFO 29496 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
 2024-07-06T18:38:17.560+08:00  INFO 29496 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 2.92 seconds (process running for 293.872)
 2024-07-06T18:38:18.064+08:00  INFO 29496 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-06T19:14:33.858+08:00  INFO 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 26296 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-06T19:14:33.862+08:00 DEBUG 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-06T19:14:33.863+08:00  INFO 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-06T19:14:33.918+08:00  INFO 26296 --- [coders-practice] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06T19:14:33.918+08:00  INFO 26296 --- [coders-practice] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06T19:14:34.562+08:00  INFO 26296 --- [coders-practice] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-06T19:14:34.622+08:00  INFO 26296 --- [coders-practice] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 JDBC repository interface.
+2024-07-06T19:14:35.139+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-07-06T19:14:35.170+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-06T19:14:35.171+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-06T19:14:35.247+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-06T19:14:35.248+08:00  INFO 26296 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1329 ms
+2024-07-06T19:14:35.413+08:00  INFO 26296 --- [coders-practice] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-06T19:14:36.169+08:00  INFO 26296 --- [coders-practice] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@355eff6
+2024-07-06T19:14:36.171+08:00  INFO 26296 --- [coders-practice] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-06T19:14:36.321+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-06T19:14:36.891+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2024-07-06T19:14:36.897+08:00  INFO 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 3.512 seconds (process running for 3.939)
+2024-07-06T19:38:28.685+08:00  INFO 26296 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 18 class path changes (0 additions, 17 deletions, 1 modification)
+2024-07-06T19:38:28.701+08:00  INFO 26296 --- [coders-practice] [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-06T19:38:28.949+08:00  INFO 26296 --- [coders-practice] [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-06T19:38:29.023+08:00  INFO 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 26296 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-06T19:38:29.024+08:00 DEBUG 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-06T19:38:29.025+08:00  INFO 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-06T19:38:29.249+08:00  INFO 26296 --- [coders-practice] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-06T19:38:29.258+08:00  INFO 26296 --- [coders-practice] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JDBC repository interface.
+2024-07-06T19:38:29.386+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-07-06T19:38:29.404+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-06T19:38:29.406+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-06T19:38:29.435+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-06T19:38:29.436+08:00  INFO 26296 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 408 ms
+2024-07-06T19:38:29.496+08:00  INFO 26296 --- [coders-practice] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-07-06T19:38:29.875+08:00  INFO 26296 --- [coders-practice] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@49e58111
+2024-07-06T19:38:29.876+08:00  INFO 26296 --- [coders-practice] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-07-06T19:38:29.900+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-06T19:38:30.038+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2024-07-06T19:38:30.041+08:00  INFO 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 1.048 seconds (process running for 1437.083)
+2024-07-06T19:38:30.255+08:00  INFO 26296 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-06T19:38:31.464+08:00  INFO 26296 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 17 class path changes (17 additions, 0 deletions, 0 modifications)
+2024-07-06T19:38:31.473+08:00  INFO 26296 --- [coders-practice] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-07-06T19:38:31.630+08:00  INFO 26296 --- [coders-practice] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-07-06T19:38:31.690+08:00  INFO 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 26296 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-06T19:38:31.690+08:00 DEBUG 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-06T19:38:31.690+08:00  INFO 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-06T19:38:31.821+08:00  INFO 26296 --- [coders-practice] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-06T19:38:31.828+08:00  INFO 26296 --- [coders-practice] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JDBC repository interface.
+2024-07-06T19:38:31.881+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-07-06T19:38:31.883+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-06T19:38:31.883+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-06T19:38:31.893+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-06T19:38:31.894+08:00  INFO 26296 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 201 ms
+2024-07-06T19:38:31.920+08:00  INFO 26296 --- [coders-practice] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-07-06T19:38:32.260+08:00  INFO 26296 --- [coders-practice] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@653ada10
+2024-07-06T19:38:32.261+08:00  INFO 26296 --- [coders-practice] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-07-06T19:38:32.277+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-06T19:38:32.363+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2024-07-06T19:38:32.366+08:00  INFO 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.697 seconds (process running for 1439.408)
+2024-07-06T19:38:32.530+08:00  INFO 26296 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-06T20:28:02.111+08:00  INFO 26296 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 20 class path changes (0 additions, 20 deletions, 0 modifications)
+2024-07-06T20:28:02.139+08:00  INFO 26296 --- [coders-practice] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-07-06T20:28:02.423+08:00  INFO 26296 --- [coders-practice] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-07-06T20:28:12.355+08:00  INFO 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 26296 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-06T20:28:12.356+08:00 DEBUG 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-06T20:28:12.357+08:00  INFO 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-06T20:28:12.581+08:00  INFO 26296 --- [coders-practice] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-06T20:28:12.589+08:00  INFO 26296 --- [coders-practice] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JDBC repository interface.
+2024-07-06T20:28:12.709+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-07-06T20:28:12.713+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-06T20:28:12.714+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-06T20:28:12.737+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-06T20:28:12.738+08:00  INFO 26296 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 378 ms
+2024-07-06T20:28:12.810+08:00  INFO 26296 --- [coders-practice] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-07-06T20:28:13.261+08:00  INFO 26296 --- [coders-practice] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@6219985a
+2024-07-06T20:28:13.262+08:00  INFO 26296 --- [coders-practice] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-07-06T20:28:13.285+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-06T20:28:13.438+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2024-07-06T20:28:13.446+08:00  INFO 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 1.118 seconds (process running for 4420.487)
+2024-07-06T20:28:13.691+08:00  INFO 26296 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-06T20:28:14.847+08:00  INFO 26296 --- [coders-practice] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 17 class path changes (17 additions, 0 deletions, 0 modifications)
+2024-07-06T20:28:14.855+08:00  INFO 26296 --- [coders-practice] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-07-06T20:28:15.022+08:00  INFO 26296 --- [coders-practice] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-07-06T20:28:15.097+08:00  INFO 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Starting CodersPracticeApplication using Java 22.0.1 with PID 26296 (C:\Users\metal\springboot\coders-practice\target\classes started by metal in C:\Users\metal\springboot\coders-practice)
+2024-07-06T20:28:15.097+08:00 DEBUG 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-06T20:28:15.098+08:00  INFO 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-07-06T20:28:15.229+08:00  INFO 26296 --- [coders-practice] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-06T20:28:15.235+08:00  INFO 26296 --- [coders-practice] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JDBC repository interface.
+2024-07-06T20:28:15.293+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2024-07-06T20:28:15.294+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-06T20:28:15.295+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-06T20:28:15.305+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-06T20:28:15.306+08:00  INFO 26296 --- [coders-practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 206 ms
+2024-07-06T20:28:15.335+08:00  INFO 26296 --- [coders-practice] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-07-06T20:28:15.692+08:00  INFO 26296 --- [coders-practice] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@354d1534
+2024-07-06T20:28:15.693+08:00  INFO 26296 --- [coders-practice] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-07-06T20:28:15.707+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-06T20:28:15.788+08:00  INFO 26296 --- [coders-practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2024-07-06T20:28:15.791+08:00  INFO 26296 --- [coders-practice] [restartedMain] c.k.c.CodersPracticeApplication          : Started CodersPracticeApplication in 0.716 seconds (process running for 4422.833)
+2024-07-06T20:28:15.956+08:00  INFO 26296 --- [coders-practice] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
