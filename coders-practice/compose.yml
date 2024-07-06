@@ -4,9 +4,9 @@
 #   postgres:
 #     image: 'postgres:latest'
 #     environment:
-#       - 'POSTGRES_DB=coders-practice-db'
-#       - 'POSTGRES_PASSWORD=coders-practice-password'
-#       - 'POSTGRES_USER=coders-practice-user'
+#       - 'POSTGRES_DB=
+#       - 'POSTGRES_PASSWORD=
+#       - 'POSTGRES_USER=
 #     ports:
 #       - '5432:5432'
 
