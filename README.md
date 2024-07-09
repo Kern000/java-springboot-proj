@@ -17,10 +17,6 @@ This is the Spring Boot Rest API using JDK 22 as an experiment for H2 in memory 
 <p> Example: /api/practices/update/1 </p>
 <p> Used with YARC or an API endpoint consumption. The HTTP Verb required is PUT. </p>
 
-<h4> /api/practices/update/{id} </h4>
-<p>Example: /api/practices/update/1 </p>
-<p>Used with YARC or an API endpoint consumption. The HTTP Verb required is PUT. </p>
-
 <h4> /api/practices/delete/{id} </h4>
 <p> Example: /api/practices/delete/1 </p>
 <p> Used with YARC or an API endpoint consumption. The HTTP Verb required is DELETE.</p>
