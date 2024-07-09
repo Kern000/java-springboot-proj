@@ -1,6 +1,6 @@
 For the Spring Boot Rest API deployed on AWS EC2 and using a AWS RDS, please visit https://github.com/Kern000/spring-boot-docker-jdk-17
 
-This is the Spring Boot Rest API using JDK 22 as an experiment for H2 in memory Database and PostgreSQL docker image.
+This is the Spring Boot Rest API using JDK 22 as an experiment for H2 in-memory Database and PostgreSQL docker image.
 
 <h2>Routes:</h2>
 <h4> /api/practices </h4>
