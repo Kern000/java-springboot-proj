@@ -3,27 +3,27 @@ For the Spring Boot Rest API deployed on AWS EC2 and using a AWS RDS, please vis
 This is the Spring Boot Rest API using JDK 22 as an experiment for H2 in memory Database and PostgreSQL docker image.
 
 Routes:
-/api/practices
-The HTTP Verb required is GET.
+<p> /api/practices </p>
+<p> The HTTP Verb required is GET.</p>
 
-/api/practices/{id}
-Example: /api/practices/1
-The HTTP Verb required is GET.
+<p> /api/practices/{id} </p>
+<p> Example: /api/practices/1 </p>
+<p> The HTTP Verb required is GET. </p>
 
-/api/practices/create
-Used with YARC or an API endpoint consumption. The HTTP Verb required is POST.
+<p> /api/practices/create </p>
+<p> Used with YARC or an API endpoint consumption. The HTTP Verb required is POST. </p> 
 
-/api/practices/update/{id}
-Example: /api/practices/update/1
-Used with YARC or an API endpoint consumption. The HTTP Verb required is PUT.
+<p> /api/practices/update/{id} </p>
+<p> Example: /api/practices/update/1 </p>
+<p> Used with YARC or an API endpoint consumption. The HTTP Verb required is PUT. </p>
 
-/api/practices/update/{id}
-Example: /api/practices/update/1
-Used with YARC or an API endpoint consumption. The HTTP Verb required is PUT.
+<p> /api/practices/update/{id} </p>
+<p>Example: /api/practices/update/1 </p>
+<p>Used with YARC or an API endpoint consumption. The HTTP Verb required is PUT. </p>
 
-/api/practices/delete/{id}
-Example: /api/practices/delete/1
-Used with YARC or an API endpoint consumption. The HTTP Verb required is DELETE.
+<p> /api/practices/delete/{id} </p>
+<p> Example: /api/practices/delete/1 </p>
+<p> Used with YARC or an API endpoint consumption. The HTTP Verb required is DELETE.</p>
 
 Other Features:
 1. INFO level logging on root
